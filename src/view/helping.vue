@@ -2,7 +2,9 @@
   <div>
     <xheader></xheader>
     <xnav></xnav>
-    <router-view/>
+    <transition name="fade" mode="out-in">
+      <router-view/>
+    </transition>
     <xfooter></xfooter>
     <backToTop></backToTop>
   </div>
@@ -23,3 +25,15 @@ export default {
   }
 }
 </script>
+
+<style lang="css" scoped>
+
+.fade-enter-active, .fade-leave-active {
+  transition: .3s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+  visibility: hidden;
+}
+
+</style>
