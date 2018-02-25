@@ -44,7 +44,9 @@
 
 &ensp;&ensp;&ensp;&ensp;举例，比如帮助中心主页面中即存在：
 
-&ensp;&ensp;&ensp;&ensp;`<p style="white-space: normal;"><span class="author-17741 font-color-12 font-size-3" style="font-size: 11pt;"><br></span></p>`
+&ensp;&ensp;&ensp;&ensp;`<p style="white-space: normal;">
+<span class="author-17741 font-color-12 font-size-3" style="font-size: 11pt;"><br></span>
+</p>`
 
 3. 尽量使用语义化的标签，能够用标签来完成的，不应该使用 div 来模拟，然后再使用 css 。比如主页面左侧导航栏存在：
 
@@ -61,12 +63,14 @@
 
 1. 点击排序，出来的操作框中，input 的宽度小了一点点，导致 placeholder 里边的最后一个字有些超出界限，看不到了
 
-<br>
+<br/>
+
 #### 三，用户界面 -> 访问用户：
 
 1. 第二个多选菜单，选择手机号码时，宽度不够，“码”字有一小部分被遮挡了
 
-<br>
+<br/>
+
 #### 四，用户界面 -> 消息列表
 
 1. 屏幕分辨率拉到最小值 1240px 时，订单状态和分销情况的 input 已经超出页面
